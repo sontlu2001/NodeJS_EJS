@@ -7,11 +7,14 @@ import {
   deleteUserService,
 } from "../services/CRUDService";
 
+import customerRanking from '../services/customerRanking'
+
 import addCustomer from "../services/addCustomerService"
 
 let getHomePage = async (req, res) => {
   try {
     let data = await db.User.findAll();
+    console.log(customerRanking("0354427882"));
     return res.render("homePage.ejs", {
       data: data,
     });
