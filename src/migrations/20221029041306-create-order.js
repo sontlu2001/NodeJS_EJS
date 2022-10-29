@@ -9,7 +9,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       customer_id: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.INTEGER
       },
       status: {
         type: Sequelize.INTEGER
