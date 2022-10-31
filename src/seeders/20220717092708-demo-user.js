@@ -10,6 +10,7 @@ module.exports = {
         lastName: "Son",
         gender: 1,
         address: "Hà Nội",
+        phoneNumber: '0343483482',
         createdAt: new Date(),
         updatedAt: new Date(),
       },
